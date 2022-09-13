@@ -26,10 +26,13 @@ body
 }
 
 #cabecera #tagline
-{
+{   
+    background-color: #333;
+    
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+    
 }
 
 #container
@@ -45,8 +48,16 @@ body
 {
     font-size: 20px;
 }
+
 #post
 {
     background: white;
     padding: 1em;
+}
+
+#footer{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
